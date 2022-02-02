@@ -8,7 +8,7 @@ body {
     height: 200px;
     margin: auto;
     border-radius: 50%;
-    border: 10px solid black;
+    border: 10px solid rgb(77, 75, 75);
 }
 
 body div{
