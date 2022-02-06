@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+
 content {
     max-width: 1600px;
     margin: 0 auto;
@@ -5,6 +7,9 @@ content {
 
 nav a {
     text-align: center;
+    background-color: #26532b;
+    text-decoration: none;
+    padding: 5px;
 }
 
 #hero-msg h1 {
@@ -13,6 +18,7 @@ nav a {
 
 #hero-msg h4 {
     text-align: center;
+    font-family: roboto;
 }
 
 .button-box {
@@ -25,23 +31,31 @@ main section {
 
 #background {
     height: 725px;
-    background-color: #26532b;
+    background-color: #c19a6b;
 }
 
 body {
-    background-color: #26532b;
+    background-color: white;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-    background-color: white;
+    background-color: #26532b;
 }
 
 nav a:hover {
-    background-color: white;
+    background-color: #26532b;
 }
 
 .book, .join {
-    background-color: white;
+    background-color: #c19a6b;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -49,9 +63,91 @@ nav a:hover {
 }
 
 .msg {
-    background-color: black;
+    background-color: #c19a6b;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
+    background-color: #c19a6b;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+.home-title {
     background-color: white;
+    font-family: rock salt;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h4 {
+    background-color: white;
+}
+
+.msg h2 {
+    background-color: #c19a6b;
+    font-family: rock salt;
+}
+
+.msg p {
+    background-color: #c19a6b;
+    font-family: roboto;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+footer h3 {
+    background-color: #c19a6b;
+    font-family: roboto;
+}
+
+footer a {
+    background-color: #c19a6b;
+    text-decoration: none;
+}
+
+footer a:hover {
+    background-color: #26532b;
+}
+
+.logo {
+    width: 80px;
+    background-color: #26532b;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+footer h3 a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    margin: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.river-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #26532b;
+}
+
+main section img {
+    box-sizing: border-box;
 }
