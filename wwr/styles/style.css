@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Open+Sans:wght@300&family=Roboto&family=Rock+Salt&family=Syne+Tactile&display=swap');
 content {
     max-width: 1600px;
     margin: 0 auto;
@@ -18,7 +17,7 @@ nav a {
 
 #hero-msg h4 {
     text-align: center;
-    font-family: roboto;
+    font-family: "roboto", cabin, open sans;
 }
 
 .button-box {
@@ -75,8 +74,8 @@ footer {
 }
 
 .home-title {
-    background-color: white;
-    font-family: rock salt;
+    background-color: #ffffff;
+    font-family: "rock salt", syne tactile;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -87,19 +86,19 @@ h4 {
 
 .msg h2 {
     background-color: #c19a6b;
-    font-family: rock salt;
+    font-family: "rock salt", syne tactile;
 }
 
 .msg p {
     background-color: #c19a6b;
-    font-family: roboto;
+    font-family: "roboto", cabin, open sans;
     font-size: .8em;
     padding-bottom: 15px;
 }
 
 footer h3 {
     background-color: #c19a6b;
-    font-family: roboto;
+    font-family: "roboto", cabin, open sans;
 }
 
 footer a {
