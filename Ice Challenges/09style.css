@@ -11,12 +11,16 @@ body {
     text-align: center;
     background-color: white;
     object-fit: fill;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-top: 5px;
 }
 
 .weeks {
     grid-column: 2/3;
     text-align: center;
     background-color: white;
+    color: #3f5b8b;
 }
 
 .heading {
@@ -29,6 +33,7 @@ body {
     grid-column: 2/3;
     text-align: center;
     background-color: white;
+    color: grey;
 }
 
 .foot {
@@ -37,6 +42,9 @@ body {
     text-align: center;
     grid-column: 2/3;
     background-color: #3f5b8b;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: white;
 }    
 
 .read {
