@@ -223,6 +223,18 @@ nav {
     transform: scale(1.1);
 }
 
+.rivers {
+    margin: 25px;
+}
+
+.right section {
+    text-align: right;
+}
+
+.bottom section {
+    text-align: left;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
