@@ -225,6 +225,10 @@ nav {
 
 .rivers {
     margin: 25px;
+    box-shadow: 5px 5px 10px black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1/2;
 }
 
 .right section {
