@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Montserrat:wght@500&family=Open+Sans:wght@300&family=Roboto&family=Rock+Salt&family=Signika+Negative&family=Syne+Tactile&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    font-family: "Montserrat", sans-serif;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    cursor: pointer;
+    margin: 10px;
+}
+
+li, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+}
+
+.hero {
+    text-align: center;
+}
+
+.welcome{
+    color: #edf0f1;
+    text-align: center;
+}
+
+.content {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    margin: 25px;
+    margin-right: 35px;
+    margin-left: 35px;
+    color: #edf0f1;
+}
+
+footer {
+    color: #edf0f1;
+    font-family: "Montserrat", sans-serif;
+    font-size: small;
+}
