@@ -71,3 +71,8 @@ footer {
     font-family: "Montserrat", sans-serif;
     font-size: small;
 }
+
+.line {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
