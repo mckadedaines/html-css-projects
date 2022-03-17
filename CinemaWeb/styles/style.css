@@ -4,7 +4,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: grey;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -14,6 +13,7 @@
     border-radius: 100%;
     cursor: pointer;
     margin: 10px;
+    text-align: center;
 }
 
 li, a {
@@ -31,7 +31,7 @@ header {
     padding: 30px 10%;
 }
 
-.nav_links {
+.nav_links  {
     list-style: none;
 }
 
@@ -48,31 +48,70 @@ header {
     color: #0088a9;
 }
 
-.hero {
+.bg-img {
     text-align: center;
+    background-image: url(../images/space.jpg);
+    padding: 20em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 25%;
 }
 
 .welcome{
-    color: #edf0f1;
+    color: black;
     text-align: center;
+    background-size: 20em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 100px;
+    display: flex;
+    align-items: column;
 }
 
 .content {
     text-align: center;
     font-family: "Montserrat", sans-serif;
-    margin: 25px;
-    margin-right: 35px;
-    margin-left: 35px;
     color: #edf0f1;
+    background-color: #232220;
 }
 
 footer {
     color: #edf0f1;
     font-family: "Montserrat", sans-serif;
     font-size: small;
+    background-color: #232220;
 }
 
 .line {
+    background-color: #232220;
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 0.2fr 5fr;
+}
+
+.why {
+    margin-bottom: 10px;
+}
+
+.foot-cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+    text-align: center;
+}
+
+.foot-cont li a {
+    transition: all 0.3s ease 0s;
+}
+
+.foot-cont li a:hover {
+    color: #0088a9;
+}
+
+.social {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
 }
