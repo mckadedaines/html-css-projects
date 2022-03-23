@@ -29,6 +29,7 @@ header {
     justify-content: flex-end;
     align-items: center;
     padding: 30px 10%;
+    background-color: #232220;
 }
 
 .nav_links  {
@@ -119,4 +120,43 @@ footer {
 
 .info {
     padding-bottom: 15px;
+}
+
+.pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #edf0f1;
+    color: black;
+    font-size: medium;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.dog {
+    width: 70%;
+    height: 100%;
+    padding: 10px;
+}
+
+.elephant {
+    width: 70%;
+    height: 100%;
+    padding: 10px;
+}
+
+.lightning {
+    width: 70%;
+    height: 100%;
+    padding: 10px;
+}
+
+.baby {
+    width: 70%;
+    height: 100%;
+    padding: 10px;
+}
+
+.text {
+    margin: auto;
 }
