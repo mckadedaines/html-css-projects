@@ -189,10 +189,3 @@ footer {
     padding-left: 20%;
     padding-right: 20%;
 }
-/* Anything under 1024px
-@media screen and (min-width: 1024px) {
-    .pictures {
-        --num-cols: 2;
-        --row-height: 200px;
-    }
-} */
